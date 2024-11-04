@@ -43,11 +43,11 @@
                 <!-- Login Section -->
                 <Border Grid.Column="0" Background="#D4D4D4" CornerRadius="10" Margin="157,0,163,0" Grid.ColumnSpan="2" Height="228" VerticalAlignment="Center">
                     <StackPanel Margin="20">
-                        <TextBox x:Name="LoginUsernameTextBox" Text="Enter Username / Email:" Foreground="Black" Margin="0,10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Width="380"/>
-                        <TextBox x:Name="LoginPasswordBox" Text="Enter Password" Foreground="Black" Margin="0,10" Width="383" />
+                        <TextBox x:Name="LoginUsernameTextBox" Text=" Enter Username / Email:" Foreground="Black" Margin="0,10" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Width="380"/>
+                        <TextBox x:Name="LoginPasswordBox" Text=" Enter Password" Foreground="Black" Margin="0,10" Width="383" />
                         <Button Content="Login" Click="LoginButton_Click" Margin="0,10" Background="#333" Foreground="White" Width="101" />
-                        <TextBlock Text="Signup ?" Foreground="#555" FontSize="12"  HorizontalAlignment="Center" MouseDown="ForgotPassword_Click" />
-                        <TextBlock Foreground="#555" FontSize="12" MouseDown="ForgotPassword_Click" Height="54" RenderTransformOrigin="0.562,2.796" Width="139" ><Run/><LineBreak/><Run Text="         Forgot password?"/></TextBlock>
+                        <TextBlock Text=" Don't have an account/ Signup ?" Foreground="Black" FontSize="12"  HorizontalAlignment="Center" MouseDown="ForgotPassword_Click" />
+                        <TextBlock Foreground="bLACK" FontSize="12" MouseDown="ForgotPassword_Click" Height="39" RenderTransformOrigin="0.562,2.796" Width="100" ><Run/><LineBreak/><Run Text=" Forgot password?"/></TextBlock>
                     </StackPanel>
                 </Border>
 
